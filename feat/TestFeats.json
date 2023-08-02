@@ -1,0 +1,55 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "LuisAncestryFeats-Sahkil",
+                "abbreviation": "TL-S",
+                "full": "Tiefling Lineage \u2014 Sahkil",
+                "url": "https://www.luisloza.com/post/tiefling-lineage-sahkil",
+                "authors": [
+                    "Luis Loza"
+                ],
+                "convertedBy": [
+                    "MrVauxs"
+                ],
+                "color": "d9a8d7",
+                "version": "1.0"
+            }
+        ]
+        },
+        "feat": [
+            {
+                "name": "TestFeat",
+                "source": "LuisAncestryFeats-Sahkil",
+                "level": 1,
+                "featType": {
+                    "ancestry": "Tiefling"
+                },
+                "traits": [
+                    "Tiefling",
+                    "Lineage"
+                ],
+                "entries": [
+                    "Sahkils\u2014horrifying fiends that revel in the fear of mortals\u2014have some influence in your bloodline and you can tap into their manipulation of fear. You can use the Influence Fear reaction.",
+                    {
+                        "type": "ability",
+                        "style": "full",
+                        "name": "Influence Fear",
+                        "source": "LuisAncestryFeats-Sahkil",
+                        "activity": {
+                            "number": 1,
+                            "unit": "reaction"
+                        },
+                        "frequency": {
+                            "unit": "minute",
+                            "number": 1
+                        },
+                        "trigger": "A creature within 30 feet increases their {@condition frightened} condition.",
+                        "entries": [
+                            "You latch on to the fear and manipulate its magnitude. You increase or reduce the triggering creature's {@condition frightened} condition by 1. If you increase the condition, you gain a number of temporary Hit Points equal to the triggering creature's level. These temporary Hit Points remain until the end of your next turn."
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
