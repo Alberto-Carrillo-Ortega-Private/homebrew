@@ -21,5 +21,8 @@
 	"homepage": "https://github.com/Pf2eTools/homebrew#readme",
 	"devDependencies": {
 		"ajv": "^6.12.3"
+	},
+	"dependencies": {
+		"clipboardy": "^3.0.0"
 	}
 }

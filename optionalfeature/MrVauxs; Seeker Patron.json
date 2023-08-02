@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "LuisAncestryFeats-Sahkil",
+				
 				"abbreviation": "Seek",
 				"full": "The Seeker",
 				"authors": [
@@ -21,7 +21,7 @@
 	"spell": [
 		{
 			"name": "Astral Refuge",
-			"source": "SeekerWitch",
+			"source": "LuisAncestryFeats-Sahkil",
 			"page": 0,
 			"focus": true,
 			"level": 3,

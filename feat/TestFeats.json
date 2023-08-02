@@ -2,7 +2,7 @@
     "_meta": {
         "sources": [
             {
-                "json": "LuisAncestryFeats-Sahkil",
+                "json": "LuisAncestryFeats-Ssahkil",
                 "abbreviation": "TL-S",
                 "full": "Tiefling Lineage \u2014 Sahkil",
                 "url": "https://www.luisloza.com/post/tiefling-lineage-sahkil",
@@ -19,8 +19,8 @@
         },
         "feat": [
             {
-                "name": "TestFeat",
-                "source": "LuisAncestryFeats-Sahkil",
+                "name": "Test",
+                "source": "LuisAncestryFeats-Ssahkil",
                 "level": 1,
                 "featType": {
                     "ancestry": "Tiefling"
