@@ -1,9 +1,24 @@
-## A repository of Homebrew JSONs compatible with Pf2eTools.
+## A repository of Homebrew JSONs compatible with Pf2eTools by Alozen from Roll Initiative.
 [![JSON Validation](https://github.com/Pf2eTools/homebrew/actions/workflows/test.yml/badge.svg)](https://github.com/Pf2eTools/homebrew/actions/workflows/test.yml)
+
+## The Repo
+#### Objetive
+##### The game
+- To provide a different outlook on the Pathfinder TTRPG.
+- To bring up some underperforming feats and class features, as well as to add some more.
+- To offer an optional focus on balance where every class feels better to play and the game is "less swingy."
+- To remaster casters and spells so they get some actual power in exchange for their durability and feel less "gamefied". More resembling the editions of old.
+- To facilitate access to all the small changes in the system that we make in our playgroup
+- To provide a common place to store all the elements related to an original fantasy setting
+
+---
+
 #### Getting Brew (automatically)
 1. Hit the "Manage Homebrew" button (if available) on a Pf2eTools page.
-2. Hit the "Get Homebrew" button.
-3. Click the title of a homebrew to add it to the site. Currently, the list only displays items from this repository.
+1. Hit the "Get Homebrew" button gear icon
+1. Use this URL "*https://raw.githubusercontent.com/Alberto-Carrillo-Ortega-Private/homebrew/master/*"
+1. Hit the "Get Homebrew" button
+1. Click the title of a homebrew to add it to the site repository.
 #### Getting Brew (manually)
 1. Browse for the file you want.
 2. Click "Raw" (top-right) and save it as `.json`.
@@ -20,6 +35,8 @@ _**Note:** one large advantage of contributing to this repo, is that your files 
 \* _See the article [here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) for a how-to._
 
 A schema is available (`json.schema`) describing the layout of the and usage of the `_meta` property found in the various data files.
+
+---
 
 ##### Conventions to Follow
 
